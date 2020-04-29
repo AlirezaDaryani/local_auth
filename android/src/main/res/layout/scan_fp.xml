@@ -7,6 +7,7 @@
     android:orientation="vertical">
   <TextView
       android:id="@+id/fingerprint_signin"
+      android:fontFamily="@font/yekan"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:paddingTop="24dp"
@@ -17,6 +18,7 @@
       android:textSize="@dimen/huge_text_size"/>
   <TextView
       android:id="@+id/fingerprint_description"
+      android:fontFamily="@font/yekan"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:paddingBottom="28dp"
@@ -34,6 +36,7 @@
         android:src="@drawable/ic_touch"/>
     <TextView
         android:id="@+id/fingerprint_status"
+        android:fontFamily="@font/yekan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingStart="16dp"
@@ -42,7 +45,6 @@
         android:paddingRight="0dp"
         android:paddingTop="12dp"
         android:paddingBottom="12dp"
-        android:textColor="@color/hint_color"
-        android:visibility="gone"/>
+        android:textColor="@color/hint_color" />
   </LinearLayout>
 </LinearLayout>

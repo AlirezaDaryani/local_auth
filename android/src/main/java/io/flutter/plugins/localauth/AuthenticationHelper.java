@@ -85,7 +85,7 @@ class AuthenticationHelper extends BiometricPrompt.AuthenticationCallback
     this.promptInfo =
         new BiometricPrompt.PromptInfo.Builder()
             .setDescription((String) call.argument("localizedReason"))
-            .setTitle("test change of title")
+            .setTitle((String) call.argument("signInTitle"))
             .setSubtitle((String) call.argument("fingerprintHint"))
             .setNegativeButtonText((String) call.argument("cancelButton"))
             .setConfirmationRequired((Boolean) call.argument("sensitiveTransaction"))
